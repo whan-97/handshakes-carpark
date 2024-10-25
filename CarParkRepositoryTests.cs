@@ -77,7 +77,7 @@ public class CarParkRepositoryTests
     }
 
     [Fact]
-    public async Task GetCarParksWithFreeParking_ReturnsParksWithFreeParking()
+    public async Task GetCarParksWithFreeParking_ReturnsFreeParkings()
     {
         using (var context = new ApplicationDbContext(_options))
         {
@@ -93,7 +93,7 @@ public class CarParkRepositoryTests
     }
 
     [Fact]
-    public async Task GetCarParksWithNightParking_ReturnsNightParks()
+    public async Task GetCarParksWithNightParking_ReturnsNightParkings()
     {
         using (var context = new ApplicationDbContext(_options))
         {
@@ -109,7 +109,7 @@ public class CarParkRepositoryTests
     }
 
     [Fact]
-    public async Task GetCarParksWithHeightRequirement_ReturnsParksAboveHeight()
+    public async Task GetCarParksWithHeightRequirement_ReturnsParkingAboveHeight()
     {
         using (var context = new ApplicationDbContext(_options))
         {
@@ -125,7 +125,7 @@ public class CarParkRepositoryTests
     }
 
     [Fact]
-    public async Task AddFavoriteCarParkAsync_ValidCarPark_MarksAsFavorite()
+    public async Task AddFavoriteCarParkAsync_ValidCarPark_MarkAsFavorite()
     {
         using (var context = new ApplicationDbContext(_options))
         {
