@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Handshakes-Carpark", "Handshakes-Carpark.csproj", "{5DEDE532-5ECF-4DC6-BC64-3956EEEAA879}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handshakes-Carpark-Tests", "..\Handshakes-Carpark-Tests\Handshakes-Carpark-Tests.csproj", "{C57E00D3-A2AA-434F-BBA6-889EA9CC8E51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handshakes-Carpark-Test", "Handshakes-Carpark-Test\Handshakes-Carpark-Test.csproj", "{13A1F70A-E114-4612-BFB1-549FB911F5E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{5DEDE532-5ECF-4DC6-BC64-3956EEEAA879}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DEDE532-5ECF-4DC6-BC64-3956EEEAA879}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DEDE532-5ECF-4DC6-BC64-3956EEEAA879}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C57E00D3-A2AA-434F-BBA6-889EA9CC8E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C57E00D3-A2AA-434F-BBA6-889EA9CC8E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C57E00D3-A2AA-434F-BBA6-889EA9CC8E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C57E00D3-A2AA-434F-BBA6-889EA9CC8E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A1F70A-E114-4612-BFB1-549FB911F5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A1F70A-E114-4612-BFB1-549FB911F5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A1F70A-E114-4612-BFB1-549FB911F5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A1F70A-E114-4612-BFB1-549FB911F5E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
